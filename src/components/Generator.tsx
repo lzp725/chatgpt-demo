@@ -217,7 +217,7 @@ export default () => {
             ref={inputRef!}
             disabled={systemRoleEditing()}
             onKeyDown={handleKeydown}
-            placeholder="请输入你想要和ChatGPT进行沟通的问题描诉..."
+            placeholder="请输入你的问题或描诉..."
             autocomplete="off"
             autofocus
             onInput={() => {
